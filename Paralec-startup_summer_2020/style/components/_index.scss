@@ -1,0 +1,192 @@
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    &_head {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 16px;
+        padding-right: 30px;
+        :nth-child(1) {
+            margin-right: 15px;
+        }
+        :nth-child(3) {
+            margin-right: 5px;
+        }
+        &_link {
+            margin-right: 20px;
+            text-decoration: none;
+            color: rgba(0,0,0,0.87);
+            font-size: 13px;
+        }
+        &_webLink {
+            border-bottom: 1px solid white;
+            font-family: Arial, sans-serif;
+        }
+        &_icons {
+            font-size: 20px;
+        }
+        &_button {
+            margin-right: 0;
+            font-size: 13px;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            color: #fff;
+            padding: 0 12px;
+            border: 1px solid #4285f4;
+            border-radius: 2px;
+            background: linear-gradient(top,#4387fd,#4683ea);
+            line-height: 28px;
+        }
+    }
+    &_logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_box {
+            padding-top: 152px;
+            img {
+                display: block;
+            }
+        }
+    }
+    &_centerBox {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 582px;
+    }
+    &_bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 582px;
+        height: 44px;
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
+        margin-top: 27px;
+        &_panel {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 8px 0 16px;
+            padding-left: 9px;
+            &_input {
+                width: 446px;
+                outline: none;
+                border: none;
+                font-size: 16px;
+            }
+            &_right {
+                display: flex;
+                flex-direction: row;
+                width: 64px;
+                margin-left: 10px;
+                background: url(//www.gstatic.com/inputtools/images/tia.png) no-repeat left;
+                svg {
+                    width: 24px;
+                    margin-left: 37px;
+                }
+            }
+        }
+        &_search {
+            width: 20px;
+            height: 20px;
+            padding-right: 13px;
+            color: #9AA0A6;
+            span {
+                color: #9AA0A6;
+            }
+        }
+    }
+    &_buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 569px;
+        margin-right: 13px;
+        margin-top: 18px;
+        a {
+            text-decoration: none;
+            color: #5F6368;
+            font-size: 14px;
+            line-height: 27px;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            font-family: arial,sans-serif;
+            background-color: #f2f2f2;
+            padding: 4px 16px;
+            margin: 11px 6px;
+        }
+    }
+    &_language {
+        font-size: 13px;
+        font-family: arial,sans-serif;
+        margin-top: 19px;
+        margin-right: 3px;
+        a {
+            text-decoration: none;
+            margin-left: 3px;
+            color: #1a0dab;
+        }
+    }
+    &_footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+        background:#f2f2f2;
+        color: rgba(0,0,0,0.87);
+    &_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #e4e4e4;
+        text-decoration: none;
+        margin-left: 7px;
+        margin-right: 7px;
+        &_contentTop {
+            span {
+                display: flex;
+                text-decoration: none;
+                font-size: 15px;
+                font-family: Arial, sans-serif;
+                padding-left: 23px;
+                color: rgba(0,0,0,0.54);
+            }
+        }
+        &_contentLeft {
+            a {
+                text-decoration: none;
+                font-size: 14px;
+                font-family: Arial, sans-serif;
+                padding-left: 23px;
+                color: rgba(0,0,0,0.54);
+            }
+            :hover {
+                text-decoration: underline;
+            }
+        }
+        &_contentRight {
+            a {
+                text-decoration: none;
+                font-size: 14px;
+                font-family: Arial, sans-serif;
+                padding-right: 23px;
+                color: rgba(0,0,0,0.54);  
+                }
+            :hover {
+                text-decoration: underline;
+                }
+            }
+        }        
+    }
+}
